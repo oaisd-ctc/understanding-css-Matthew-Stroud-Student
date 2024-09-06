@@ -5,4 +5,16 @@ body {
 h1 {
     font-size: 250px;
     color: blue;
+    text-shadow: 10px 10px #00ff00;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    outline: 10px solid white;
+    transform: scaleY(2);
+}
+
+p {
+    padding: 100px;
+    transform: skewY(10deg);
+    translate: 10px 200px;
 }
